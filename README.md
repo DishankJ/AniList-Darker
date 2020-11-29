@@ -1,5 +1,5 @@
 # AniList-Darker
-A better AniList dark theme with red accent. Feel free to let me know any recommendation or issues.
+A better AniList dark theme with red accent.
 Note: First set the site theme from AniList settings to dark and then apply this themeusing Stylus.
 
 After the theme is applied:
