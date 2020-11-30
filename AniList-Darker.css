@@ -144,7 +144,7 @@
 }
  
 .progress[data-v-815ccddc] {
-    background: #181818;
+    background: rgb(30,30,30);
     height: 11px;
     padding: 0 16.5%;
 }
@@ -616,14 +616,6 @@ h2[data-v-6f9ee47f] {
     width: 100%;
 }
 
-.banner[data-v-b5c85c0a] {
-    background-position: 50% 35%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 275px;
-    margin-top: -58px;
-}
-
 [data-v-bcbe965e] .result:hover {
     background-color: #ff6961;
 }
@@ -642,4 +634,8 @@ h2[data-v-6f9ee47f] {
     top: calc(50% - 12px);
     transition: opacity .3s ease;
     width: 24px;
+}
+
+.el-dialog__headerbtn:focus .el-dialog__close, .el-dialog__headerbtn:hover .el-dialog__close {
+    color: #ff6961;
 }
