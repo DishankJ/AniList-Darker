@@ -3,11 +3,13 @@
 @namespace    github.com/DishankJ/AniList-Darker
 @version      1.0.3
 @description  Dark theme with red accent for AniList.
-@author       Dishank Jaiswal (AKA Despair)
+@author       Dishank Jaiswal
 @homepageURL  https://github.com/DishankJ/AniList-Darker
 @supportURL   https://github.com/DishankJ/AniList-Darker/issues
 @updateURL    https://raw.githubusercontent.com/DishankJ/AniList-Darker/master/Generated/AniList-Darker.user.styl
 ==/UserStyle== */
+
+@-moz-document regexp("https://anilist.co/") {
 
 .feed-type-toggle > div.active[data-v-7b8d25f2] {
     background: #1f1f1f;
@@ -683,6 +685,8 @@ h2[data-v-6f9ee47f] {
 .el-dialog__headerbtn:focus .el-dialog__close,
 .el-dialog__headerbtn:hover .el-dialog__close {
     color: #ff6961;
+}
+
 }
 
 @-moz-document regexp("^https://anilist.co/anime/.*/.*/watch") {
