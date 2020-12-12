@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         AniList Darker
 @namespace    github.com/DishankJ/AniList-Darker
-@version      1.0.7
+@version      1.0.8
 @description  Dark theme with red accent for AniList.
 @author       Dishank Jaiswal
 @homepageURL  https://github.com/DishankJ/AniList-Darker
@@ -21,6 +21,16 @@
     --color-gray-100: 20,22,24;
     --color-foreground-grey: 20,22,24;
     --color-foreground-grey-dark: 17,19,20;
+}
+
+.banner[data-v-b5c85c0a] {
+    height: 260px;
+}
+
+@media (max-width: 760px) {
+    .banner[data-v-b5c85c0a] {
+        height: 135px;
+    }
 }
 
 .footer[data-v-6f9ee47f] {
@@ -49,6 +59,10 @@
 
 h2[data-v-6f9ee47f] {
     color: #ff6961;
+}
+
+.banner .shadow[data-v-b5c85c0a] {
+    background: rgba(20,22,24,.7);
 }
 
 }
