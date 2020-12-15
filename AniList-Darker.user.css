@@ -27,10 +27,19 @@
     height: 260px;
 }
 
+.behind-accent[data-v-16d5094e] {
+    background: #ff8e88;
+    height: .9px;
+}
+
 @media (max-width: 760px) {
     .banner[data-v-b5c85c0a] {
         height: 135px;
     }
+}
+
+.small .cover .image-text[data-v-4b71d7c6] {
+    background: linear-gradient(to top, rgba(0,0,0,.85), rgba(0,0,0,.1));
 }
 
 .footer[data-v-6f9ee47f] {
@@ -63,6 +72,35 @@ h2[data-v-6f9ee47f] {
 
 .banner .shadow[data-v-b5c85c0a] {
     background: rgba(20,22,24,.7);
+}
+
+.user-page-unscoped.red .progress .bar {
+    background: linear-gradient(270deg,#ff8e88,#f78c9b);
+}
+
+.feed-type-toggle>div.active[data-v-7b8d25f2] {
+    color: #ff8e88;
+}
+
+.progress[data-v-5d42c114] {
+    background-color: #ff8e88;
+}
+
+.el-message--success {
+    background-color: rgba(16,16,16,.85);
+    border: 0px solid black;
+}
+
+.el-icon-success:before {
+    color: #ff8e88;
+}
+
+.el-message--success .el-message__content {
+    color: #ff8e88;
+}
+
+h1 {
+    font-weight: 500;
 }
 
 }
